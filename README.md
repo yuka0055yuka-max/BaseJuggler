@@ -1,5 +1,10 @@
 # 🌐 BaseJuggler - 基数変換計算機
 
+## 🔗 公開URL
+
+[https://yuka0055yuka-max.github.io/BaseJuggler/](https://yuka0055yuka-max.github.io/BaseJuggler/)
+
+
 **BaseJuggler** は、10進数・2進数・8進数・16進数の相互変換をリアルタイムで行うWebアプリです。PWA対応で、スマホのホーム画面に追加してオフラインでも使用可能です。
 
 入力された数値は、まず内部的に10進数に変換されてから、他の基数（2進数・8進数・16進数）へ変換されます。
@@ -52,6 +57,11 @@ GitHub: [@yuka0055yuka-max](https://github.com/yuka0055yuka-max)
 ---
 
 # 🌐 BaseJuggler - Base Conversion Calculator
+
+## 🔗 Live Demo
+
+[https://yuka0055yuka-max.github.io/BaseJuggler/](https://yuka0055yuka-max.github.io/BaseJuggler/)
+
 
 **BaseJuggler** is a real-time base conversion web app that supports decimal, binary, octal, and hexadecimal formats. It’s PWA-ready, allowing offline use and installation to your mobile home screen.
 
