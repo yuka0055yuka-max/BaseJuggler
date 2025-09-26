@@ -1,0 +1,23 @@
+{
+    "name": "基数変換計算機 Pro",
+    "short_name": "基数変換",
+    "description": "2, 8, 10, 16進数を双方向にリアルタイムで変換する高機能な計算機。",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#f4f7f9",
+    "theme_color": "#34495e",
+    "icons": [
+        {
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

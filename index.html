@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>基数変換計算機</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#34495e"/>
+    <link rel="apple-touch-icon" href="icon-192.png">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>基数変換計算機</h1>
+            <p>いずれかの欄に入力すると、他のすべての基数にリアルタイムで変換されます。</p>
+        </header>
+
+        <main class="converter-grid">
+            <!-- 10進数 (Decimal) -->
+            <div class="input-group">
+                <label for="dec-input">10進数 (Decimal)</label>
+                <input type="text" id="dec-input" class="base-input" data-base="10" placeholder="例: 26" inputmode="numeric">
+            </div>
+
+            <!-- 2進数 (Binary) -->
+            <div class="input-group">
+                <label for="bin-input">2進数 (Binary)</label>
+                <input type="text" id="bin-input" class="base-input" data-base="2" placeholder="例: 11010" inputmode="numeric">
+            </div>
+
+            <!-- 8進数 (Octal) -->
+            <div class="input-group">
+                <label for="oct-input">8進数 (Octal)</label>
+                <input type="text" id="oct-input" class="base-input" data-base="8" placeholder="例: 32" inputmode="numeric">
+            </div>
+
+            <!-- 16進数 (Hexadecimal) -->
+            <div class="input-group">
+                <label for="hex-input">16進数 (Hexadecimal)</label>
+                <input type="text" id="hex-input" class="base-input" data-base="16" placeholder="例: 1A" autocapitalize="off" autocorrect="off">
+            </div>
+        </main>
+        
+        <footer>
+            <button id="clear-button">全クリア</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
